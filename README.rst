@@ -21,7 +21,36 @@ Introduction
 
 MicroPython Driver for the STTS22H Temperature Sensor
 
+Installing with mip
+====================
 
+To install using mpremote
+
+.. code-block:: shell
+
+    mpremote mip install github:jposada202020/MicroPython_STTS22H
+
+To install directly using a WIFI capable board
+
+.. code-block:: shell
+
+    mip install github:jposada202020/MicroPython_STTS22H
+
+
+Installing Library Examples
+============================
+
+If you want to install library examples:
+
+.. code-block:: shell
+
+    mpremote mip install github:jposada202020/MicroPython_STTS22H/examples.json
+
+To install directly using a WIFI capable board
+
+.. code-block:: shell
+
+    mip install github:jposada202020/MicroPython_STTS22H/examples.json
 
 Installing from PyPI
 =====================
