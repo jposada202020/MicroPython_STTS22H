@@ -47,18 +47,20 @@ class STTS22H:
     .. code-block:: python
 
         from machine import Pin, I2C
-        import stts22h
+        from micropython_stts22h import stts22h
 
     Once this is done you can define your `machine.I2C` object and define your sensor object
 
     .. code-block:: python
 
-        i2c = I2C(sda=Pin28), scl=Pin(3))
-        stts22h = stts22h.STTS22H(i2c)
+        i2c = I2C(1, sda=Pin(2), scl=Pin(3))
+        stts = stts22h.STTS22H(i2c)
 
     Now you have access to the attributes
 
     .. code-block:: python
+
+        temp = stts.temperature
 
     """
 
