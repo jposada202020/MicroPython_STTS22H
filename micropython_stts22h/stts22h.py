@@ -35,7 +35,7 @@ class STTS22H:
     """Driver for the STTS22H Sensor connected over I2C.
 
     :param ~machine.I2C i2c: The I2C bus the STTS22H is connected to.
-    :param int address: The I2C device address. Defaults to :const:`0x69`
+    :param int address: The I2C device address. Defaults to :const:`0x3C`
 
     :raises RuntimeError: if the sensor is not found
 
