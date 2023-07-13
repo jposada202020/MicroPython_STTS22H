@@ -1,4 +1,4 @@
-STTS22H
+MicroPython STTS22H Library
 =========================================
 
 

@@ -20,11 +20,9 @@ authors = [
 urls = {Homepage = "https://github.com/jposada202020/MicroPython_STTS22H"}
 keywords = [
     "sensor",
-    "micropython",
     "stts22h",
     "temperature",
     "sensor",
-    "stts22h",
     "st",
     "micropython",
     "celsius",

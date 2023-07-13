@@ -24,4 +24,4 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/jposada202020/MciroPython_STTS22H/releases/latest>
+    Download from GitHub <https://github.com/jposada202020/MicroPython_STTS22H/releases/latest>
